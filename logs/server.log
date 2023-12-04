@@ -42,3 +42,4 @@
 2023-12-04 18:46:51,149 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=476, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55387)>,), {}. Вызов из модуля common.utils
 2023-12-04 18:46:51,149 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1701704810.707228, 'account_name': 'test3'}
 2023-12-04 18:46:51,149 DEBUG decos.py Была вызвана функция process_client_message c параметрами ({'action': 'exit', 'time': 1701704810.707228, 'account_name': 'test3'}, [], <socket.socket [closed] fd=-1, family=2, type=1, proto=0>, [], {}), {}. Вызов из модуля __main__
+

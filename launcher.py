@@ -4,10 +4,14 @@ import subprocess
 
 PROCESSES = []
 
+
+
+
 while True:
     ACTION = input('Выберите действие: q - выход, '
                    's - запустить сервер и клиенты, '
                    'x - закрыть все окна: ')
+
 
     if ACTION == 'q':
         break

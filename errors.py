@@ -7,6 +7,7 @@ class IncorrectDataRecivedError(Exception):
         return 'Принято некорректное сообщение от удалённого компьютера.'
 
 
+
 class ServerError(Exception):
     """Исключение - ошибка сервера"""
     def __init__(self, text):

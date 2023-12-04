@@ -11,6 +11,7 @@ import logs.config_client_log
 # Если его не найдено, - возвращает -1.
 
 
+
 def log(func_to_log):
     """Функция-декоратор"""
     def log_saver(*args, **kwargs):
